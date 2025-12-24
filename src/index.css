@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Deep Blue Academic Design System - Learning Friction Tracker
+   All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 25% 98%;
+    --foreground: 220 40% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 13%;
+
+    --primary: 220 70% 35%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 30% 94%;
+    --secondary-foreground: 220 40% 13%;
+
+    --muted: 210 25% 92%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 200 75% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 25% 88%;
+    --input: 214 25% 88%;
+    --ring: 220 70% 35%;
+
+    --radius: 0.5rem;
+
+    /* Chart colors for data visualization */
+    --chart-1: 220 70% 35%;
+    --chart-2: 200 75% 45%;
+    --chart-3: 160 60% 45%;
+    --chart-4: 35 90% 55%;
+    --chart-5: 0 72% 51%;
+
+    /* Severity colors */
+    --severity-minor: 160 60% 45%;
+    --severity-moderate: 35 90% 55%;
+    --severity-severe: 0 72% 51%;
+
+    --sidebar-background: 220 40% 13%;
+    --sidebar-foreground: 210 25% 95%;
+    --sidebar-primary: 200 75% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 35% 20%;
+    --sidebar-accent-foreground: 210 25% 95%;
+    --sidebar-border: 220 30% 25%;
+    --sidebar-ring: 200 75% 45%;
+  }
+
+  .dark {
+    --background: 220 40% 8%;
+    --foreground: 210 25% 95%;
+
+    --card: 220 35% 12%;
+    --card-foreground: 210 25% 95%;
+
+    --popover: 220 35% 12%;
+    --popover-foreground: 210 25% 95%;
+
+    --primary: 210 80% 55%;
+    --primary-foreground: 220 40% 8%;
+
+    --secondary: 220 30% 18%;
+    --secondary-foreground: 210 25% 95%;
+
+    --muted: 220 25% 20%;
+    --muted-foreground: 210 20% 60%;
+
+    --accent: 200 75% 50%;
+    --accent-foreground: 220 40% 8%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 25% 22%;
+    --input: 220 25% 22%;
+    --ring: 210 80% 55%;
+
+    --chart-1: 210 80% 55%;
+    --chart-2: 200 75% 50%;
+    --chart-3: 160 60% 50%;
+    --chart-4: 35 90% 60%;
+    --chart-5: 0 72% 55%;
+
+    --severity-minor: 160 60% 50%;
+    --severity-moderate: 35 90% 60%;
+    --severity-severe: 0 72% 55%;
+
+    --sidebar-background: 220 40% 8%;
+    --sidebar-foreground: 210 25% 95%;
+    --sidebar-primary: 200 75% 50%;
+    --sidebar-primary-foreground: 220 40% 8%;
+    --sidebar-accent: 220 30% 15%;
+    --sidebar-accent-foreground: 210 25% 95%;
+    --sidebar-border: 220 25% 18%;
+    --sidebar-ring: 200 75% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .severity-minor {
+    @apply bg-[hsl(var(--severity-minor))];
+  }
+  .severity-moderate {
+    @apply bg-[hsl(var(--severity-moderate))];
+  }
+  .severity-severe {
+    @apply bg-[hsl(var(--severity-severe))];
+  }
+}
