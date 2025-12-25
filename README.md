@@ -6,7 +6,7 @@ Designed as a prototype/MVP, the focus is on UX clarity, educational value, and 
 
 ---
 
-## 🚀 Features
+##  Features
 - Visualizes curriculum friction points
 - Highlights unclear prerequisites and topic jumps
 - Frontend built with Vite + modern JavaScript tooling
@@ -22,7 +22,7 @@ Tech Stack
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 Make sure you have:
