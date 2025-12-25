@@ -1,38 +1,39 @@
 # Learning Friction Tracker
 
-Learning Friction Tracker helps educators identify where and why students struggle by collecting structured feedback across courses and topics and visualizing it through a clean teacher dashboard.
+Learning Friction Tracker helps educators identify where and why students struggle by collecting structured feedback across courses and topics, and visualizing it through a clean teacher dashboard.
 
 Designed as a prototype/MVP, the focus is on UX clarity, educational value, and demonstration readiness.
 
 ---
 
-##  Features
+## ✨ Features
 - Visualizes curriculum friction points
-- Highlights unclear prerequisites and topic jumps
-- Frontend built with Vite + modern JavaScript tooling
+- Highlights unclear prerequisites and sudden topic jumps
+- Simple, clean teacher dashboard
+- Built for clarity and demo-friendliness
 
 ---
 
-Tech Stack
-	•	Frontend: React, TypeScript, Vite
-	•	Styling: Tailwind CSS
-	•	Routing: React Router
-	•	Data: Static demo data 
-	•	Tooling: Node.js, npm / bun
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript, Vite  
+- **Styling:** Tailwind CSS  
+- **Routing:** React Router  
+- **Data:** Static demo data  
+- **Tooling:** Node.js, npm / bun  
 
 ---
 
-##  Installation & Setup
+## 🚀 Installation & Setup
 
 ### Prerequisites
-Make sure you have:
+Ensure you have installed:
 - Node.js (v18 or above)
-- npm (comes with Node.js)
+- npm (comes with Node.js) or Bun
 
-### Steps to Run Locally
+### Run Locally
 
-1. Clone the repository:
 ```bash
+# Clone the repository
 git clone https://github.com/Shravya1106/learning-friction-tracker.git
 
 # Navigate into the project
